@@ -1,0 +1,49 @@
+footer {
+  background-color: #ffffff; /* White Background */
+  color: #000000; /* Black Text */
+  padding: 20px 0;
+  text-align: center;
+  bottom: 0;
+  border-top: 2px solid #ddd; /* Light Gray Border for Separation */
+}
+
+/* Footer Content */
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Footer Text */
+.footer-content p {
+  margin: 0;
+  font-size: 14px;
+  color: #333; /* Dark Gray for Better Readability */
+}
+
+/* Footer Links */
+.footer-content a {
+  text-decoration: none;
+  color: #000; /* Black Links */
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+/* Social Links */
+.social-links {
+  margin-top: 10px;
+}
+
+/* Social Media Icons */
+.social-links a {
+  color: #000; /* Black Social Media Icons */
+  font-size: 18px;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover Effect on Links */
+.social-links a:hover {
+  color: #FF4757; /* Red Accent on Hover */
+  transform: scale(1.1); /* Slight Zoom Effect */
+}
